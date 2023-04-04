@@ -71,7 +71,7 @@ class RestaurantsTableSeeder extends Seeder
                 Restaurant::create([
 
                     'name' => 'Ristorante da Gabriella',
-                    'image' => 'https://www.peruca.eu/wp-content/uploads/2021/02/Peruca-sala-sito-col.jpg',
+                    'image' => 'https://www.corazzolla.it/wp-content/uploads/2019/11/arredo-ristorante-moderno-corazzolla-1-scaled.jpg',
                     'vat' => '12345678901',
                     'address' => 'Via Roma, 6',
                     'created_at' => '2023/02/12 11:20:45',

@@ -29,5 +29,15 @@ class DatabaseSeeder extends Seeder
         $this->call(CategoriesSeeder::class);
         
         $this->call(RestaurantsSeeder::class); */
+
+        
+        /* Comandi manuali da eseguire in ordine:
+        1) php artisan migrate
+        2) php artisan db:seed UsersTableSeeder
+        3) php artisan db:seed CategoriesTableSeeder
+        4) php artisan db:seed RestaurantsTableSeeder
+        5) php artisan db:seed DishesTableSeeder
+        6) php artisan db:seed OrdersTableSeeder
+         */
     }
 }
